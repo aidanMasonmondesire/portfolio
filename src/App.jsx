@@ -20,7 +20,7 @@ const profile = {
   email: "aidan.mmondesire@outlook.com",
   github: "https://github.com/aidanMasonmondesire",
   linkedin: "https://linkedin.com/in/aidan-mason-mondesire",
-  resumeUrl: "#",
+  resumeUrl: "https://docs.google.com/document/d/1WCBTWDyWaxI_sJk_WFQUC2DY4zSCDKfQZm6izx6JsLc/export?format=pdf",
 };
 
 const skills = [
@@ -180,7 +180,7 @@ export default function Portfolio() {
             <a className="pf-btn pf-btn-primary" href={`mailto:${profile.email}`}>
               <Mail size={15} /> Get in touch
             </a>
-            <a className="pf-btn" href={profile.resumeUrl}>
+            <a className="pf-btn" href={profile.resumeUrl} target="_blank" rel="noreferrer">
               <FileText size={15} /> Resume
             </a>
             <a className="pf-btn" href={profile.github} target="_blank" rel="noreferrer">
